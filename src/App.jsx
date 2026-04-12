@@ -2,6 +2,7 @@ import './App.css'
 import ControlField from './Components/ControlField/ControlField'
 import FormAction from './Components/FormAction/FormAction'
 import SimpleForm from './Components/SimpleForm/SimpleForm'
+import UncontrolField from './Components/UncontrolField/UncontrolField'
 
 function App() {
   
@@ -16,6 +17,10 @@ function App() {
       <br />
       <h4>Control Field</h4>
       <ControlField></ControlField>
+      <br />
+      <br />
+      <h2>Uncontrol Field</h2>
+      <UncontrolField></UncontrolField>
     </>
   )
 }
