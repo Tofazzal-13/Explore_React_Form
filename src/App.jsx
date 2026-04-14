@@ -1,6 +1,7 @@
 import './App.css'
 import ControlField from './Components/ControlField/ControlField'
 import FormAction from './Components/FormAction/FormAction'
+import HookForm from './Components/HookForm/HookForm'
 import SimpleForm from './Components/SimpleForm/SimpleForm'
 import UncontrolField from './Components/UncontrolField/UncontrolField'
 
@@ -9,7 +10,7 @@ function App() {
 
   return (
     <>
-      <h1>Explore React Form</h1>
+      {/* <h1>Explore React Form</h1>
       <SimpleForm></SimpleForm>
       <br />
       <h4>Form action </h4>
@@ -20,7 +21,9 @@ function App() {
       <br />
       <br />
       <h2>Uncontrol Field</h2>
-      <UncontrolField></UncontrolField>
+      <UncontrolField></UncontrolField> */}
+      <h1>React form</h1>
+      <HookForm></HookForm>
     </>
   )
 }
