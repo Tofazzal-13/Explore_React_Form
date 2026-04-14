@@ -2,6 +2,7 @@ import './App.css'
 import ControlField from './Components/ControlField/ControlField'
 import FormAction from './Components/FormAction/FormAction'
 import HookForm from './Components/HookForm/HookForm'
+import ProductManagement from './Components/ProductManagement/ProductManagement'
 import SimpleForm from './Components/SimpleForm/SimpleForm'
 import UncontrolField from './Components/UncontrolField/UncontrolField'
 
@@ -22,8 +23,10 @@ function App() {
       <br />
       <h2>Uncontrol Field</h2>
       <UncontrolField></UncontrolField> */}
-      <h1>React form</h1>
-      <HookForm></HookForm>
+      {/* <h1>React form</h1>
+      <HookForm></HookForm> */}
+
+      <ProductManagement></ProductManagement>
     </>
   )
 }
